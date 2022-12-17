@@ -1,0 +1,12 @@
+{
+    "name": "Historia",
+    "version": "1.0.0",
+    "description": "Record Browser History On Chain Privately",
+    "author": "Vaibhav Maheshwari",
+    "background":{
+        "service_worker": "background.js"
+      },
+    "permissions": ["scripting", "history", "storage"],
+    "host_permissions": ["<all_urls>"],
+    "manifest_version": 3
+  }
